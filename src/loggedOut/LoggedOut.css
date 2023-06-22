@@ -1,0 +1,14 @@
+
+.loggedout-container h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: space-between;
+}
+.loggedout-container img{
+    width: 200px;
+    height: 200px;
+    height: auto;
+    align-items: center;
+    margin-left: 975px;
+}
