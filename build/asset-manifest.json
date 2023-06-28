@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/e-commerce-baisc-web-application/static/css/main.6b89890f.css",
+    "main.js": "/e-commerce-baisc-web-application/static/js/main.211c655b.js",
+    "index.html": "/e-commerce-baisc-web-application/index.html",
+    "main.6b89890f.css.map": "/e-commerce-baisc-web-application/static/css/main.6b89890f.css.map",
+    "main.211c655b.js.map": "/e-commerce-baisc-web-application/static/js/main.211c655b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b89890f.css",
+    "static/js/main.211c655b.js"
+  ]
+}
