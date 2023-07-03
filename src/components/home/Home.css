@@ -1,0 +1,61 @@
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.product{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+.product button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    width: 100%;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.product button:hover{
+    background-color: rgb(132, 19, 41);
+}
+.product img{
+    width: 200px;
+    height: 200px;
+    object-fit: fill
+}
+.product h2{
+    margin-bottom: 45px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.product span{
+    background-color: #151a15;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.product p{
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+    background-color: crimson;
+}
